@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kad-deleteme123
+  host: kad-deleteme123
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - kad-deleteme123-personality_insights
